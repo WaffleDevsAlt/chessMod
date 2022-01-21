@@ -48,6 +48,7 @@ function moddedLogic(pieceType, pieceColor, id, row, column) {
 }
 
 function moddedCheckLogic(pieceType, pieceColor, id, row, column) {
+  let res = []
   if (pieceType == 'king') {
     let knight = [6, 10, 15, 17]
     let krows = [1, 1, 2, 2]
